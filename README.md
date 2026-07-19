@@ -195,7 +195,8 @@ local function setupListeners(char)
             ladderTriggered = false
         end)
         
-        -- Detecta quando entra na escada
+        -- Detecta quando entra na escada (ENCOS
+TOU NA ESCADA)
         humanoid.StateChanged:Connect(function(oldState, newState)
             if not enabled then return end
             
